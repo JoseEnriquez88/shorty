@@ -41,7 +41,7 @@ export default function UrlForm({ setShortUrl, setError }: Props) {
   };
 
   return (
-    <form className="w-full max-w-md flex gap-6">
+    <form onSubmit={handleSubmit} className="w-full max-w-md flex gap-6">
       <div className="relative group">
         <div className="absolute -inset-1 bg-gradient-to-r from-slate-600/50 to-blue-600/50 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
         <input
