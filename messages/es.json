@@ -1,0 +1,10 @@
+{
+  "view": {
+    "url": "URL acortada",
+    "button": "acortar",
+    "button2": "acortando"
+  },
+  "footer": {
+    "developed": "Desarrollado por"
+  }
+}
